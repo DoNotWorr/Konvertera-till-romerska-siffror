@@ -1,0 +1,40 @@
+M = 1000 -> 1 * 10^3
+
+D = 500 -> 5 * 10^2
+C = 100 -> 1 * 10^2
+
+L = 50 -> 5 * 10^1
+X = 10 -> 1 * 10^1
+
+V = 5 -> 5 * 10^0
+I = 1 -> 1 * 10^0
+
+2421 -> högsta siffran 1 * 10^3
+
+2421 / 1000 = 2 -> MM
+2421 - 2000 = 421
+
+421 / 100 = 4 -> CD
+421-400 = 21
+
+21 / 10 = 2 -> XX
+
+21-20 = 1
+1 / 1 (exponent är 0, returnera efter) = 1 -> I
+
+
+
+
+
+Exempel:
+A number containing several decimal digits is built by appending the Roman numeral equivalent for each, from highest to lowest, as in the following examples:
+39 = XXX + IX = XXXIX
+246 = CC + XL + VI = CCXLVI
+789 = DCC + LXXX + IX = DCCLXXXIX
+2421 = MM + CD + XX + I = MMCDXXI
+
+Any missing place (represented by a zero in the place-value equivalent) is omitted, as in Latin (and English) speech:
+160 = C + LX = CLX
+207 = CC + VII = CCVII
+1,009 = M + IX = MIX
+1,066 = M + LX + VI = MLXVI
